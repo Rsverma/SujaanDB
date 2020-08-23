@@ -1,0 +1,6 @@
+﻿CREATE TABLE [dbo].[T_TopicCourseMapping]
+(
+	[Id] INT NOT NULL PRIMARY KEY IDENTITY,
+	[CourseID] INT NOT NULL,
+	[TopicID] INT NOT NULL
+)

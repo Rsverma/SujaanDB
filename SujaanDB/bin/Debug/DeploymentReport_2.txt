@@ -1,0 +1,37 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       [dbo].[T_Assignments]
+       [dbo].[T_CoursePathMapping]
+       [dbo].[T_Courses]
+       [dbo].[T_CourseTopics]
+       [dbo].[T_EmployeeCourseMappings]
+       [dbo].[T_Employees]
+       [dbo].[T_EmployeeSubjectProficiency]
+       [dbo].[T_LearningPaths]
+       [dbo].[T_Mentors]
+       [dbo].[T_Projects]
+       [dbo].[T_Subjects]
+       [dbo].[T_TopicCourseMapping]
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Table rebuild
+       [dbo].[T_Assignments] (Table)
+       [dbo].[T_CoursePathMapping] (Table)
+       [dbo].[T_Courses] (Table)
+       [dbo].[T_CourseTopics] (Table)
+       [dbo].[T_EmployeeCourseMappings] (Table)
+       [dbo].[T_Employees] (Table)
+       [dbo].[T_EmployeeSubjectProficiency] (Table)
+       [dbo].[T_LearningPaths] (Table)
+       [dbo].[T_Mentors] (Table)
+       [dbo].[T_Projects] (Table)
+       [dbo].[T_Subjects] (Table)
+       [dbo].[T_TopicCourseMapping] (Table)
+
+** Supporting actions

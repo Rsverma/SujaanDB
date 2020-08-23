@@ -1,0 +1,58 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       The column [dbo].[T_EmployeeCourseMappings].[CourseID] on table [dbo].[T_EmployeeCourseMappings] must be added, but the
+         column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work.
+         To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the
+         generation of smart-defaults as a deployment option.
+       The column [dbo].[T_EmployeeCourseMappings].[EmployeeID] on table [dbo].[T_EmployeeCourseMappings] must be added, but
+         the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not
+         work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable
+         the generation of smart-defaults as a deployment option.
+       The column [dbo].[T_Employees].[EmailAddress] on table [dbo].[T_Employees] must be added, but the column has no default
+         value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue
+         you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of
+         smart-defaults as a deployment option.
+       The column [dbo].[T_Employees].[EmployeeID] on table [dbo].[T_Employees] must be added, but the column has no default
+         value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue
+         you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of
+         smart-defaults as a deployment option.
+       The column [dbo].[T_Employees].[Password] on table [dbo].[T_Employees] must be added, but the column has no default
+         value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue
+         you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of
+         smart-defaults as a deployment option.
+       The column [dbo].[T_Mentors].[EmployeeID] on table [dbo].[T_Mentors] must be added, but the column has no default value
+         and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must
+         either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults
+         as a deployment option.
+
+** User actions
+     Alter
+       [dbo].[T_Assignments] (Table)
+       [dbo].[T_Courses] (Table)
+       [dbo].[T_CourseTopics] (Table)
+       [dbo].[T_EmployeeCourseMappings] (Table)
+       [dbo].[T_Employees] (Table)
+       [dbo].[T_LearningPaths] (Table)
+       [dbo].[T_Mentors] (Table)
+       [dbo].[T_Projects] (Table)
+       [dbo].[T_Subjects] (Table)
+     Create
+       [dbo].[T_CoursePathMapping] (Table)
+       [dbo].[T_EmployeeSubjectProficiency] (Table)
+       [dbo].[T_TopicCourseMapping] (Table)
+
+** Supporting actions
+
+The column [dbo].[T_EmployeeCourseMappings].[CourseID] on table [dbo].[T_EmployeeCourseMappings] must be added, but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+The column [dbo].[T_EmployeeCourseMappings].[EmployeeID] on table [dbo].[T_EmployeeCourseMappings] must be added, but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+The column [dbo].[T_Employees].[EmailAddress] on table [dbo].[T_Employees] must be added, but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+The column [dbo].[T_Employees].[EmployeeID] on table [dbo].[T_Employees] must be added, but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+The column [dbo].[T_Employees].[Password] on table [dbo].[T_Employees] must be added, but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+The column [dbo].[T_Mentors].[EmployeeID] on table [dbo].[T_Mentors] must be added, but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+

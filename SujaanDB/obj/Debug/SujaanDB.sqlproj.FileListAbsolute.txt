@@ -1,0 +1,10 @@
+D:\developer\SujaanDB\SujaanDB\bin\Debug\SujaanDB.dacpac
+D:\developer\SujaanDB\SujaanDB\bin\Debug\SujaanDB.dll
+D:\developer\SujaanDB\SujaanDB\bin\Debug\SujaanDB.pdb
+D:\developer\SujaanDB\SujaanDB\obj\Debug\SujaanDB.sqlprojAssemblyReference.cache
+D:\developer\SujaanDB\SujaanDB\obj\Debug\SujaanDB.dll
+D:\developer\SujaanDB\SujaanDB\obj\Debug\SujaanDB.pdb
+D:\developer\SujaanDB\SujaanDB\obj\Debug\Model.xml
+D:\developer\SujaanDB\SujaanDB\obj\Debug\refactor.xml
+D:\developer\SujaanDB\SujaanDB\obj\Debug\postdeploy.sql
+D:\developer\SujaanDB\SujaanDB\obj\Debug\predeploy.sql

@@ -1,0 +1,5 @@
+﻿CREATE TABLE [dbo].[T_LearningPaths]
+(
+	[Id] INT NOT NULL PRIMARY KEY IDENTITY,
+	[PathName] VARCHAR(50)
+)

@@ -1,0 +1,5 @@
+﻿CREATE TABLE [dbo].[T_Mentors]
+(
+	[Id] INT NOT NULL PRIMARY KEY IDENTITY,
+	[EmployeeID] INT NOT NULL,
+)

@@ -1,0 +1,6 @@
+﻿CREATE TABLE [dbo].[T_CoursePathMapping]
+(
+	[Id] INT NOT NULL PRIMARY KEY IDENTITY,
+	[PathID] INT NOT NULL,
+	[CourseID] INT NOT NULL
+)
